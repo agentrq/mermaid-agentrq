@@ -3,7 +3,7 @@
   "displayName": "Mermaid Diagrams",
   "version": "1.0.0",
   "description": "Draws mermaid code blocks in tasks and messages as diagrams, with a toggle back to the text.",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "engines": {
     "agentrq": ">=0.5"
   },
