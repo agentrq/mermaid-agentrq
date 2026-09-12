@@ -5,14 +5,30 @@
   "license": "Apache-2.0",
   "type": "module",
   "main": "index.js",
-  "files": ["index.js", "agentrq-extension.json", "README.md"],
+  "files": [
+    "index.js",
+    "dist",
+    "agentrq-extension.json",
+    "README.md"
+  ],
   "scripts": {
     "test": "vitest run",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "build": "esbuild src/drawer.js --bundle --minify --format=esm --platform=browser --outfile=dist/drawer.js",
+    "prepack": "npm run build"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^3.2.7",
+    "esbuild": "^0.28.2",
     "vitest": "^3.2.7"
   },
-  "keywords": ["agentrq", "agentrq-extension", "mermaid", "diagrams"]
+  "keywords": [
+    "agentrq",
+    "agentrq-extension",
+    "mermaid",
+    "diagrams"
+  ],
+  "dependencies": {
+    "mermaid": "^12.0.0"
+  }
 }

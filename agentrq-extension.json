@@ -5,7 +5,7 @@
   "description": "Draws mermaid code blocks in tasks and messages as diagrams, with a toggle back to the text.",
   "license": "Apache-2.0",
   "engines": {
-    "agentrq": ">=0.5"
+    "agentrq": ">=0.6"
   },
   "config": [
     {
@@ -22,6 +22,12 @@
   "provides": {
     "renderers": [
       "mermaid"
+    ],
+    "drawers": [
+      {
+        "format": "mermaid",
+        "entry": "dist/drawer.js"
+      }
     ]
   },
   "artifact": {
