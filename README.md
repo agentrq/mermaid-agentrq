@@ -91,4 +91,4 @@ edits the installed extension, so a change is one reload away.
 
 ## Licence
 
-MIT.
+Apache 2.0. See [LICENSE](LICENSE).

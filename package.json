@@ -2,7 +2,7 @@
   "name": "@agentrq/mermaid-agentrq",
   "version": "1.0.0",
   "description": "AgentRQ extension: draws ```mermaid blocks in tasks and messages as diagrams.",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "type": "module",
   "main": "index.js",
   "files": ["index.js", "agentrq-extension.json", "README.md"],
