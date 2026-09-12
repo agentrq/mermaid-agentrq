@@ -1,0 +1,32 @@
+{
+  "name": "mermaid",
+  "displayName": "Mermaid Diagrams",
+  "version": "1.0.0",
+  "description": "Draws mermaid code blocks in tasks and messages as diagrams, with a toggle back to the text.",
+  "license": "MIT",
+  "engines": {
+    "agentrq": ">=0.5"
+  },
+  "config": [
+    {
+      "key": "workspaces",
+      "type": "string",
+      "label": "Only these workspaces (comma separated; blank means all)"
+    },
+    {
+      "key": "maxLines",
+      "type": "number",
+      "label": "Largest diagram to draw, in lines"
+    }
+  ],
+  "provides": {
+    "renderers": [
+      "mermaid"
+    ]
+  },
+  "artifact": {
+    "release": "v1.0.0",
+    "asset": "mermaid-agentrq-1.0.0.tgz",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  }
+}
