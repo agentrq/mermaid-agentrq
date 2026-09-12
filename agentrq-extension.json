@@ -1,7 +1,7 @@
 {
   "name": "mermaid",
   "displayName": "Mermaid Diagrams",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Draws mermaid code blocks in tasks and messages as diagrams, with a toggle back to the text.",
   "license": "Apache-2.0",
   "engines": {
@@ -31,8 +31,8 @@
     ]
   },
   "artifact": {
-    "release": "v1.0.0",
-    "asset": "mermaid-agentrq-1.0.0.tgz",
-    "sha256": "386a1686920fcb11cac33ead8041c7f96498b0d61e7e0e24e3f902440f77b4db"
+    "release": "v1.1.0",
+    "asset": "mermaid-agentrq-1.1.0.tgz",
+    "sha256": "b1562bccd8207793f94096a251d2ca98a0897edd7bf3299cb4f1bb15cb8d302c"
   }
 }
